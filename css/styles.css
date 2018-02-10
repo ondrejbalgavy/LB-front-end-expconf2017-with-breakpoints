@@ -1,0 +1,519 @@
+/*reseting browser defaults*/
+html, body, h1, h2,
+h3, p, ol, ul, li, a, button, img {
+padding: 0;
+border: 0;
+margin: 0;
+}
+
+.container {
+  width: 1400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container--promo-info {
+    width: 40%;
+    float: left;
+    overflow: visible;
+}
+
+.container--big-image {
+  width: 60%;
+  float: right;
+  overflow: hidden;
+}
+
+.big-image {
+  position: relative;
+  top: -20px;
+  right: 19px;
+}
+
+.medium-image {
+  position: relative;
+  top: -20px;
+  right: -5px;
+}
+
+.arrow {
+  position: relative;
+  top: 280px;
+  left: 24px;
+}
+
+.arrow2 {
+  position: relative;
+  transform: rotate(97deg);
+  top: 828px;
+  left: 431px;
+}
+
+.play-arrow {
+  padding: 20px;
+}
+
+.navbar {
+  margin-left: 60px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: 300;
+}
+
+.navbar-brand {
+  display: inline;
+}
+
+.navbar-list {
+    display: inline;
+
+}
+
+.navbar--item {
+  display: inline;
+}
+
+.navbar--a-tag {
+  height: 12px;
+
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar--a-tag:hover {
+  background: linear-gradient(231.41deg, #75E9FF 0%, #76FFA9 100%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container--heading {
+  height: 125px;
+  width: 372px;
+  margin-left: 173px;
+  margin-top: 223px;
+}
+
+.heading__gradient {
+  position: relative;
+  top: -8px;
+  left: -2px;
+  font-family: Montserrat;
+  background: linear-gradient(231.41deg, #75E9FF 0%, #76FFA9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 0;
+  font-size: 62px;
+  line-height: 73px;
+  font-weight: 700;
+}
+
+.container--subheading {
+  margin-left: 172px;
+  margin-top: 20px;
+  height: 62px;
+  width: 408px;
+}
+
+.text--subheading {
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.container--date-and-place {
+  margin-left: 174px;
+  margin-top: 40px;
+  height: 82px;
+  width: 253px;
+  line-height: 41px;
+}
+.text--date {
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+.text--place {
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 19px;	font-weight: 400;
+  line-height: 41px;
+}
+
+.buy-ticket {
+  margin-top: 40px;
+  margin-left: 175px;
+  font-family: Montserrat;
+  height: 60px;
+  width: 233px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background-color: #5B6476;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.buy-ticket:hover {
+  background: linear-gradient(231.41deg, blue 0%, green 100%);
+}
+
+.button-circle {
+  position: relative;
+  left: 187px;
+  top: -379px;
+  height: 60px;
+  width: 60px;
+  background-color: #FFFFFF;
+  z-index: 250;
+  border-radius: 50%;
+  box-shadow: 0 2px 20px 0 rgba(55,59,68,0.23);
+}
+
+.button-circle:hover {
+  background: linear-gradient(231.41deg, blue 0%, green 100%);
+}
+
+.ux-conference-2016 {
+  position: relative;
+  top: -417px;
+  left: 260px;
+  height: 35px;
+  width: 408px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  z-index: 250;
+}
+
+.ux-conference-2016_2 {
+  position: relative;
+  top: -417px;
+  left: 260px;
+  height: 35px;
+  width: 408px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+
+
+@media (min-width: 1px) {
+@media (max-width: 800px) {
+  .container {
+    width: 640px;
+    margin: auto;
+  }
+
+  .container--promo-info {
+      width: 100%;
+      float: left;
+  }
+
+  .container--big-image {
+    width: 0%;
+  }
+
+.navbar {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 612px;
+}
+
+.navbar--a-tag {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+
+.container--heading {
+  margin-top: 100px;
+}
+
+.heading__gradient {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.container--subheading {
+  margin-top: 0px;
+}
+
+.container--date-and-place {
+  margin-top: 0px;
+}
+
+.buy-ticket {
+  margin-top: 0px;
+}
+
+  .button-circle {
+    left: 110px;
+    top: 26px;
+    background: #5B6476;
+  }
+
+  .ux-conference-2016 {
+    color: #5B6476;
+    font-weight: 400;
+    top: 10px;
+    left: 485px;
+  }
+
+
+  .big-image {
+    display: none;
+  }
+
+  .medium-image {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+
+} /* end of max-width media query*/
+}/* end of min-width media query*/
+
+
+@media (min-width: 801px) {
+@media (max-width: 1199px) {
+
+  .container {
+    width: 800px;
+    margin: auto;
+  }
+
+  .container--promo-info {
+    width: 100%;
+  }
+
+  .container--big-image {
+    width: 0%;
+  }
+
+  .container--heading {
+    margin-top: 140px;
+    margin-left: 200px;
+  }
+
+  .heading__gradient {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .container--subheading {
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+
+  .container--date-and-place {
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+
+  .buy-ticket {
+    margin-top: 0px;
+  }
+
+  .big-image {
+    display: none;
+  }
+
+  .medium-image {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+
+  .button-circle {
+    left: 200px;
+    top: 26px;
+    background: #5B6476;
+  }
+
+  .ux-conference-2016 {
+    color: #5B6476;
+    font-weight: 400;
+    top: 10px;
+    left: 575px;
+  }
+
+} /*end of max-width query*/
+} /*end of min-width query*/
+
+
+@media (min-width: 1200px) {
+@media (max-width: 1460px) {
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
+
+  .navbar-brand {
+    display: inline;
+  }
+
+  .navbar-list {
+      display: inline;
+  }
+
+  .navbar--item {
+    display: inline;
+  }
+
+  .container--heading {
+   margin-top: 180px;
+   margin-left: 90px;
+}
+
+  .container--subheading {
+    margin-left: 90px;
+  }
+
+  .container--date-and-place {
+    margin-left: 90px;
+  }
+
+  .buy-ticket {
+    margin-left: 90px;
+  }
+
+  .button-circle {
+    left: 198px;
+    top: 25px;
+  }
+
+  .ux-conference-2016 {
+    top: -40px;
+    left: 610px;
+  }
+
+  .container--promo-info {
+    width: 40%;
+    float: left;
+  }
+
+  .container--big-image {
+    width: 60%;
+    float: right;
+  }
+
+  .big-image {
+    display: none;
+  }
+
+  .medium-image {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+
+} /* end of max-width media query*/
+}/* end of min-width media query*/
+
+
+
+@media (min-width: 1461px) {
+
+    .container {
+      width: 1400px;
+      margin: auto;
+    }
+
+    .navbar-brand {
+      display: inline;
+    }
+
+    .navbar-list {
+        display: inline;
+
+    }
+
+    .navbar--item {
+      display: inline;
+    }
+
+
+    .medium-image {
+      display: none;
+    }
+    .big-image {
+      display: block;
+
+    }
+
+    .arrow {
+      display:  inline;
+    }
+
+    .arrow2 {
+      display: inline;
+    }
+
+
+
+    .button-circle {
+      left: 335px;
+      top: 26px;
+    }
+
+
+    .ux-conference-2016 {
+      top: -38px;
+      left: 825px;
+    }
+
+
+    .container--promo-info {
+        width: 40%;
+        float: left;
+
+    }
+
+    .container--big-image {
+      width: 60%;
+      float: right;
+
+    }
+
+
+} /* end of min-width media query*/
