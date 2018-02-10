@@ -38,8 +38,8 @@ margin: 0;
 
 .arrow {
   position: relative;
-  top: 280px;
-  left: 24px;
+  top: 295px;
+  left: 22px;
 }
 
 .arrow2 {
@@ -67,6 +67,7 @@ margin: 0;
 
 .navbar-list {
     display: inline;
+    margin-left: 5px;
 
 }
 
@@ -76,7 +77,6 @@ margin: 0;
 
 .navbar--a-tag {
   height: 12px;
-
   color: #5B6476;
   font-family: Montserrat;
   font-size: 12px;
@@ -84,8 +84,8 @@ margin: 0;
   line-height: 12px;
   text-decoration: none;
   text-transform: uppercase;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -269,7 +269,7 @@ margin: 0;
 }
 
   .button-circle {
-    left: 110px;
+    left: 100px;
     top: 26px;
     background: #5B6476;
   }
@@ -278,7 +278,7 @@ margin: 0;
     color: #5B6476;
     font-weight: 400;
     top: 10px;
-    left: 485px;
+    left: 475px;
   }
 
 
