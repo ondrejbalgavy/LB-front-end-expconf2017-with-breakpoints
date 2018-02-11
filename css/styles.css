@@ -108,7 +108,8 @@ margin: 0;
   top: -8px;
   left: -2px;
   font-family: Montserrat;
-  background: linear-gradient(231.41deg, #75E9FF 0%, #76FFA9 100%);
+  background: #FFFFFF;
+  background: -webkit-linear-gradient(231.41deg, #75E9FF 0%, #76FFA9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 0;
@@ -204,23 +205,13 @@ margin: 0;
   z-index: 250;
 }
 
-.ux-conference-2016_2 {
-  position: relative;
-  top: -417px;
-  left: 260px;
-  height: 35px;
-  width: 408px;
-  color: #FFFFFF;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 19px;
-}
 
 
 
-@media (min-width: 1px) {
-@media (max-width: 800px) {
+
+
+@media screen and (min-width: 1px) {
+
   .container {
     width: 640px;
     margin: auto;
@@ -234,53 +225,6 @@ margin: 0;
   .container--big-image {
     width: 0%;
   }
-
-.navbar {
-  margin-top: 10px;
-  margin-left: 30px;
-  width: 612px;
-}
-
-.navbar--a-tag {
-  padding-left: 7px;
-  padding-right: 7px;
-}
-
-
-.container--heading {
-  margin-top: 100px;
-}
-
-.heading__gradient {
-  font-size: 50px;
-  line-height: 50px;
-}
-
-.container--subheading {
-  margin-top: 0px;
-}
-
-.container--date-and-place {
-  margin-top: 0px;
-}
-
-.buy-ticket {
-  margin-top: 0px;
-}
-
-  .button-circle {
-    left: 100px;
-    top: 26px;
-    background: #5B6476;
-  }
-
-  .ux-conference-2016 {
-    color: #5B6476;
-    font-weight: 400;
-    top: 10px;
-    left: 475px;
-  }
-
 
   .big-image {
     display: none;
@@ -298,12 +242,60 @@ margin: 0;
     display: none;
   }
 
-} /* end of max-width media query*/
+  .navbar {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 700px;
+  }
+
+  .navbar--a-tag {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .container--heading {
+    margin-top: 100px;
+  }
+
+  .heading__gradient {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .container--subheading {
+    margin-top: 0px;
+  }
+
+  .container--date-and-place {
+    margin-top: 0px;
+  }
+
+  .buy-ticket {
+    margin-top: 0px;
+  }
+
+  .button-circle {
+    left: 100px;
+    top: 26px;
+    background: #5B6476;
+  }
+
+  .ux-conference-2016 {
+    color: #5B6476;
+    font-weight: 400;
+    top: 10px;
+    left: 475px;
+  }
+
+
+
+
+
 }/* end of min-width media query*/
 
 
-@media (min-width: 801px) {
-@media (max-width: 1199px) {
+@media screen and  (min-width: 801px) {
+
 
   .container {
     width: 800px;
@@ -316,6 +308,32 @@ margin: 0;
 
   .container--big-image {
     width: 0%;
+  }
+
+  .big-image {
+    display: none;
+  }
+
+  .medium-image {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+
+  .navbar {
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  .navbar--a-tag {
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .container--heading {
@@ -342,22 +360,6 @@ margin: 0;
     margin-top: 0px;
   }
 
-  .big-image {
-    display: none;
-  }
-
-  .medium-image {
-    display: none;
-  }
-
-  .arrow {
-    display: none;
-  }
-
-  .arrow2 {
-    display: none;
-  }
-
   .button-circle {
     left: 200px;
     top: 26px;
@@ -371,54 +373,14 @@ margin: 0;
     left: 575px;
   }
 
-} /*end of max-width query*/
 } /*end of min-width query*/
 
 
-@media (min-width: 1200px) {
-@media (max-width: 1460px) {
+@media screen and (min-width: 1200px) {
+
   .container {
     width: 1200px;
     margin: auto;
-  }
-
-  .navbar-brand {
-    display: inline;
-  }
-
-  .navbar-list {
-      display: inline;
-  }
-
-  .navbar--item {
-    display: inline;
-  }
-
-  .container--heading {
-   margin-top: 180px;
-   margin-left: 90px;
-}
-
-  .container--subheading {
-    margin-left: 90px;
-  }
-
-  .container--date-and-place {
-    margin-left: 90px;
-  }
-
-  .buy-ticket {
-    margin-left: 90px;
-  }
-
-  .button-circle {
-    left: 198px;
-    top: 25px;
-  }
-
-  .ux-conference-2016 {
-    top: -40px;
-    left: 610px;
   }
 
   .container--promo-info {
@@ -447,38 +409,71 @@ margin: 0;
     display: none;
   }
 
-} /* end of max-width media query*/
+  .container--heading {
+   margin-top: 180px;
+   margin-left: 90px;
+}
+
+  .heading__gradient {
+    font-size: 62px;
+    line-height: 73px;
+  }
+
+  .container--subheading {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+
+  .container--date-and-place {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+
+  .buy-ticket {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+
+  .button-circle {
+    left: 198px;
+    top: 25px;
+    background: #FFFFFF;
+  }
+
+  .ux-conference-2016 {
+    top: -40px;
+    left: 610px;
+    color: #FFFFFF;
+    font-weight: 300;
+  }
+
 }/* end of min-width media query*/
 
 
 
-@media (min-width: 1461px) {
+@media screen and  (min-width: 1461px) {
 
     .container {
       width: 1400px;
       margin: auto;
     }
 
-    .navbar-brand {
-      display: inline;
+    .container--promo-info {
+        width: 40%;
+        float: left;
     }
 
-    .navbar-list {
-        display: inline;
-
+    .container--big-image {
+      width: 60%;
+      float: right;
     }
 
-    .navbar--item {
-      display: inline;
+    .big-image {
+      display: block;
     }
-
 
     .medium-image {
       display: none;
-    }
-    .big-image {
-      display: block;
-
     }
 
     .arrow {
@@ -489,31 +484,31 @@ margin: 0;
       display: inline;
     }
 
+    .container--heading {
+      margin-top: 223px;
+      margin-left: 173px;
+    }
 
+    .container--subheading {
+      margin-left: 172px;
+    }
+
+    .container--date-and-place {
+      margin-left: 174px;
+    }
+
+    .buy-ticket {
+      margin-left: 175px;
+    }
 
     .button-circle {
       left: 335px;
       top: 26px;
     }
 
-
     .ux-conference-2016 {
       top: -38px;
       left: 825px;
     }
-
-
-    .container--promo-info {
-        width: 40%;
-        float: left;
-
-    }
-
-    .container--big-image {
-      width: 60%;
-      float: right;
-
-    }
-
 
 } /* end of min-width media query*/
